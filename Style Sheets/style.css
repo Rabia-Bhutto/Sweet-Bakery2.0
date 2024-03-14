@@ -1,0 +1,718 @@
+/* Font */
+@font-face
+{
+    src: url('../Fonts/Roboto.ttf');
+    font-family: roboto;
+}
+
+
+:root
+{
+    --cyan: #7ecfcc;
+    --pink: #ee98a1;
+}
+
+/* *
+{
+    border: 2px solid black;
+} */
+
+.sub-nav
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo
+{
+    width: 120px;
+    height: 120px;
+    
+}
+
+.icons-div
+{
+    margin-right: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons
+{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-50
+{
+    width: 60%;
+}
+
+/* Div Containing The Ordering Button */
+.order-btn-div
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+/* Ordering Button */
+#order-btn
+{
+    width: 150px;
+    height: 40px;
+    background-color: var(--cyan);
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    /* font-size: clamp(16px, 2vw, 20px); */
+    font-size: 20px;
+}
+
+/* Banner Text */
+.ban-txt
+{
+    display: flex;
+    height: 800px;
+    align-items: center;
+    margin-left:50px;
+}
+
+
+/* Heading Of The Banner */
+.banner-head
+{
+    color: white;
+    font-weight: bold;
+    /* font-size: clamp(20px, 2vw, 80px); */
+    font-size: 80px;
+    font-family: roboto;
+    margin-bottom: 20px;
+}
+
+/* Paragraph In The Banner */
+.banner-p
+{
+    color:white;
+    /* font-size: clamp(16px, 2vw, 40px); */
+    font-size: 40px;
+    font-family: roboto;
+}
+
+
+
+.carousel-txt
+{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    padding-top: 100px;
+    margin-left: -100px;
+}
+
+.special-imgs
+{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.special-con
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#r2
+{
+    margin-right: -20px;
+    padding-top: 20px;
+}
+
+.img1
+{
+    margin-right: 21px;
+}
+
+.img5
+{
+    /* margin-left: 45px; */
+}
+
+.img6
+{
+    /* margin-left: 42px; */
+}
+
+
+/* Text Container Of The Card */
+.text-container
+{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/* Items In The Text Container  Of The Card */
+.txt-container-items
+{
+    
+    text-align: center;
+}
+
+/* Heading Of The Card */
+#magic-head
+{
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Cake Icon */
+.fa-cake-candles
+{
+    font-size: 80px;
+}
+
+/* Paragraph Of The Card */
+.magic-p
+{
+    color: white;
+    width: 400px;
+    font-size: 20px;
+}
+
+/* White Button */
+#white-btn
+{
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.card-magic
+{
+    opacity: 0.8;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-magic::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background-color: #40B5AD;
+  opacity:0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.card-img-overlay
+{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.creations-imgs
+{
+    width: 180px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.creations-con
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+/* Pink Cake Icon */
+.pink-cake-icon
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Div Containing The Heading Of The Creations Section */
+.creations-head-div
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Heading Of The Creations Section */
+.creation-head
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.banner2
+{
+    display: none;
+}
+
+ .text-container
+    {
+        margin-bottom: 100px;
+    }
+    
+    .img05
+    {
+        margin-left: 5px;
+    }
+    
+    .img06
+    {
+        margin-left: 10px;
+    }
+    
+    /* Pseudo Element On The Recipes Section */
+.recipes::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  opacity:0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.bg4
+{
+    margin-top: 50px;
+}
+
+/* Div Containing The Recipe */
+.recipe-box
+{
+    position: absolute;
+    text-align: center;
+}
+
+/* Recipe Heading */
+.recipe-head
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: roboto;
+    color: black;
+    margin-bottom: 50px;
+}
+
+/* Ingredients Heading */
+.ingredients-head
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: roboto;
+    color: black;
+}
+
+/* Ingredients List */
+.ingredients
+{
+    list-style: none;
+}
+
+/* List Items In The Ingredients List */
+#li
+{
+    font-size: 20px;
+}
+
+/* Recipe Image */
+.sundae-img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer
+{
+    background-color: black;
+    height: 300px;
+}
+
+/* Footer Logo Div */
+.foot-logo-div
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
+/* Footer Logo */
+.foot-logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+/* Footer Nav List */
+.foot-ul
+{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+/* Footer Nav Links */
+.foot-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* Copyright Paragraph Div */
+.copyright-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Copyright Paragraph*/
+.copyright
+{
+    color: white;
+}
+
+.table
+{
+    width: 50%;
+    /* height: 800px; */
+}
+
+/* Question Card Section */
+.question
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Question Card Section Div */
+.question-div
+{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Question Card Heading */
+#question-head
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* Question Card Paragraph */
+.question-p
+{
+    font-size: 20px;
+    color: #40B5AD;
+    width: 200px;
+    font-weight: bold;
+}
+
+.tablencard
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Table Head */
+.table-head
+{
+    color: gray !important;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.col-t
+{
+    border-bottom: 1px solid gray;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+
+  /*   *
+    {
+        border: 2px solid black;
+    } */
+    .logo
+    {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .tablencard
+{
+    display: block;
+    /* justify-content: center; */
+}
+
+    
+    .sub-nav
+    {
+        
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    
+    /* ban-txt
+    {
+        width: 200px;
+        height: 200px;
+    } */
+    
+    .banner-head
+    {
+        font-size: 20px;
+    }
+    
+      .banner-p
+    {
+        font-size: 16px;
+        
+    }
+    
+    .banner-txt
+    {
+        padding-top: 500px;
+        align-items: flex-end;
+        position: absolute;
+    }
+    
+    #order-btn
+    {
+        width: 50px;
+        height: 10px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .carousel
+{
+    /* width: 100%;
+    height: 800px; */
+    /* display: none; */
+}
+
+.carousel-img
+{
+    /* width: 100%;
+    height: 800px !important; */
+}
+
+.creation-head
+{
+    font-size: 20px;
+}
+
+.fa-cake-candles
+{
+    font-size: 40px;
+}
+
+.creations-con
+{
+    /* margin-right: 20px; */
+}
+
+/* /* Banner Image */
+.banner2
+{
+    width: 100%;
+    height: 800px;
+    background-image: url('../Images/carousel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+ */
+ 
+ #magic-head
+ {
+     font-size: 20px !important;
+     width: 50%;
+ }
+    
+    .magic-p
+    {
+        font-size: 16px;
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+   .text-container
+    {
+        justify-content: center;
+    }
+    
+    .card-magic
+    {
+        height: 800px;
+    }
+    
+    .card-card:before
+    {
+        height: 800px;
+    }
+    
+    .card-img-overlay
+    {
+        height: 800px;
+    }
+    
+    .recipes 
+    {
+        /* margin-left: 50px; */
+    }
+    
+    .bg4
+    {
+        margin-left: 50px;
+    }
+    
+    footer
+    {
+        height: 400px;
+        background: black;
+    }
+    
+} 
+
+@media screen and (min-width:481px) and (max-width:768px)
+{
+/* 
+*
+{
+    border: 2px solid black;
+} */
+    banner-head
+    {
+        font-size: 40px;
+    }
+    
+    .banner-p
+    {
+        font-size: 25px;
+    }
+    
+    .tablencard
+{
+    display: block;
+/*     justify-content: center; */
+}
+
+    
+    .banner-txt
+    {
+        margin-bottom: -200px;
+    }
+    
+    /* .carousel-img
+    {
+        display: none;
+    }
+    
+    .banner
+{
+    width: 100vw;
+    height: 800px;
+    background-image: url('../Images/carousel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+} */
+
+    .special-imgs
+    {
+        width: 150px;
+        height: 100px;
+    }
+    
+   .text-container
+    {
+        margin-bottom: 100px;
+    }
+    
+    .creations-imgs
+   {
+    width: 150px;
+    height: 100px;
+    }
+    
+    .creations-con
+    {
+        border-collapse: collapse;
+        
+        
+    }
+    
+  .div-l
+  {
+      padding: 0px;
+  }
+  
+  footer
+    {
+        height: 400px;
+        background: black;
+    }
+  
+}
